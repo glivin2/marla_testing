@@ -11,7 +11,7 @@ function setup() {
   
 function draw() {
     frameRate(6);
-    if (mousePressed){
+    if (mouseIsPressed === true){
       fill(mouseY/3,0,0);
       ellipse(pmouseX,pmouseY,mouseX,mouseY);
      
